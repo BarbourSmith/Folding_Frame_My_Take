@@ -4,6 +4,24 @@
   "y": 0,
   "uniqueID": "id-2583",
   "name": "Folding_Frame_My_Take",
+  "ioValues": [
+    {
+      "name": "Bolt_Diameter",
+      "ioValue": 10
+    },
+    {
+      "name": "Bit_Diameter",
+      "ioValue": 10
+    },
+    {
+      "name": "Wood_Thickness",
+      "ioValue": 10
+    },
+    {
+      "name": "Anchor_Length",
+      "ioValue": 10
+    }
+  ],
   "topLevel": true,
   "allAtoms": [
     {
@@ -14,8 +32,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.19510582010582012,
-      "y": 0.6657381615598886,
+      "x": 0.19047619047619047,
+      "y": 0.637883008356546,
       "uniqueID": "id-2586",
       "name": "My Take",
       "ioValues": [
@@ -1969,6 +1987,38 @@
           "ioValue": null
         }
       ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.15384615384615385,
+      "uniqueID": "id-2950",
+      "name": "Bolt_Diameter",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.36211699164345407,
+      "uniqueID": "id-2953",
+      "name": "Bit_Diameter",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.6016713091922006,
+      "uniqueID": "id-2956",
+      "name": "Wood_Thickness",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.796657381615599,
+      "uniqueID": "id-2959",
+      "name": "Anchor_Length",
+      "type": "number"
     }
   ],
   "allConnectors": [
@@ -2016,7 +2066,8 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-2941",
       "ap2ID": "id-2584"
-    }
+    },
+    null
   ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
