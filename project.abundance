@@ -11,15 +11,18 @@
     },
     {
       "name": "Bit_Diameter",
-      "ioValue": 10
+      "ioValue": 6.35,
+      "currentEquation": "6.35"
     },
     {
       "name": "Wood_Thickness",
-      "ioValue": 10
+      "ioValue": 19.5,
+      "currentEquation": "19.5"
     },
     {
       "name": "Anchor_Length",
-      "ioValue": 10
+      "ioValue": 150,
+      "currentEquation": "150"
     }
   ],
   "topLevel": true,
@@ -39,19 +42,19 @@
       "ioValues": [
         {
           "name": "Bolt2Diameter",
-          "ioValue": 6.4
+          "ioValue": 10
         },
         {
           "name": "BitDiameter",
-          "ioValue": 6.4
+          "ioValue": 6.35
         },
         {
           "name": "WoodThick",
-          "ioValue": 19.8
+          "ioValue": 19.5
         },
         {
           "name": "Anchor_Dimension",
-          "ioValue": 100
+          "ioValue": 150
         }
       ],
       "topLevel": false,
@@ -102,7 +105,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 19.8
+              "ioValue": 19.5
             }
           ]
         },
@@ -142,7 +145,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 19.8
+              "ioValue": 19.5
             }
           ]
         },
@@ -179,7 +182,7 @@
           "ioValues": [
             {
               "name": "A",
-              "ioValue": 100
+              "ioValue": 150
             }
           ],
           "currentEquation": "2.5*A"
@@ -193,11 +196,11 @@
           "ioValues": [
             {
               "name": "Bolt2Diameter",
-              "ioValue": 6.4
+              "ioValue": 10
             },
             {
               "name": "WoodThick",
-              "ioValue": 19.8
+              "ioValue": 19.5
             }
           ],
           "topLevel": false,
@@ -224,7 +227,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 6.4
+                  "ioValue": 10
                 }
               ]
             },
@@ -237,7 +240,7 @@
               "ioValues": [
                 {
                   "name": "D",
-                  "ioValue": 6.4
+                  "ioValue": 10
                 }
               ],
               "currentEquation": "D+1"
@@ -250,7 +253,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 7.4
+                  "ioValue": 11
                 }
               ]
             },
@@ -262,7 +265,7 @@
               "ioValues": [
                 {
                   "name": "height",
-                  "ioValue": 60.400000000000006
+                  "ioValue": 59.5
                 }
               ]
             },
@@ -281,7 +284,7 @@
               "ioValues": [
                 {
                   "name": "height",
-                  "ioValue": 60.400000000000006
+                  "ioValue": 59.5
                 }
               ]
             },
@@ -345,7 +348,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 60.400000000000006
+                  "ioValue": 59.5
                 }
               ]
             },
@@ -366,7 +369,7 @@
               "ioValues": [
                 {
                   "name": "T",
-                  "ioValue": 19.8
+                  "ioValue": 19.5
                 }
               ],
               "currentEquation": "3*T+1"
@@ -387,7 +390,7 @@
                 {
                   "name": "Shape 1",
                   "ioValue": {
-                    "geometry": "move-extrude-polysides-6-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-0-0-60.400000000000006",
+                    "geometry": "move-extrude-polysides-6-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-0-0-59.5",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -414,7 +417,7 @@
                 {
                   "name": "Shape 2",
                   "ioValue": {
-                    "geometry": "extrude-circle-3.2-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-60.400000000000006",
+                    "geometry": "extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-59.5",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -545,7 +548,7 @@
           "ioValues": [
             {
               "name": "Anchor_Dimension",
-              "ioValue": 250
+              "ioValue": 375
             }
           ],
           "topLevel": false,
@@ -600,7 +603,7 @@
               "ioValues": [
                 {
                   "name": "xDist",
-                  "ioValue": 112.5
+                  "ioValue": 168.75
                 },
                 {
                   "name": "yDist",
@@ -620,7 +623,7 @@
               "ioValues": [
                 {
                   "name": "xDist",
-                  "ioValue": -112.5
+                  "ioValue": -168.75
                 },
                 {
                   "name": "yDist",
@@ -641,7 +644,7 @@
               "ioValues": [
                 {
                   "name": "A",
-                  "ioValue": 250
+                  "ioValue": 375
                 }
               ],
               "currentEquation": ".9*(A/2)"
@@ -671,7 +674,7 @@
               "ioValues": [
                 {
                   "name": "X",
-                  "ioValue": 112.5
+                  "ioValue": 168.75
                 }
               ],
               "currentEquation": "-1*X"
@@ -740,7 +743,7 @@
           "ioValues": [
             {
               "name": "Anchor_Dimension",
-              "ioValue": 250
+              "ioValue": 375
             }
           ],
           "topLevel": false,
@@ -799,7 +802,7 @@
               "ioValues": [
                 {
                   "name": "xDist",
-                  "ioValue": 150
+                  "ioValue": 225
                 },
                 {
                   "name": "yDist",
@@ -826,7 +829,7 @@
               "ioValues": [
                 {
                   "name": "A",
-                  "ioValue": 250
+                  "ioValue": 375
                 }
               ],
               "currentEquation": ".6*A"
@@ -839,7 +842,7 @@
               "ioValues": [
                 {
                   "name": "xDist",
-                  "ioValue": -150
+                  "ioValue": -225
                 },
                 {
                   "name": "yDist",
@@ -860,7 +863,7 @@
               "ioValues": [
                 {
                   "name": "X",
-                  "ioValue": 150
+                  "ioValue": 225
                 }
               ],
               "currentEquation": "-1*X"
@@ -874,7 +877,7 @@
                 {
                   "name": "Shape 1",
                   "ioValue": {
-                    "geometry": "move-extrude-circle-40-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-200-150-0-0",
+                    "geometry": "move-extrude-circle-40-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-200-225-0-0",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -901,7 +904,7 @@
                 {
                   "name": "Shape 2",
                   "ioValue": {
-                    "geometry": "move-extrude-circle-40-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-200--150-0-0",
+                    "geometry": "move-extrude-circle-40-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-200--225-0-0",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -1002,15 +1005,15 @@
           "ioValues": [
             {
               "name": "WoodThick",
-              "ioValue": 19.8
+              "ioValue": 19.5
             },
             {
               "name": "Anchor_Dimension",
-              "ioValue": 250
+              "ioValue": 375
             },
             {
               "name": "BitDiameter",
-              "ioValue": 6.4
+              "ioValue": 6.35
             }
           ],
           "topLevel": false,
@@ -1029,7 +1032,7 @@
               "ioValues": [
                 {
                   "name": "x length",
-                  "ioValue": 250
+                  "ioValue": 375
                 },
                 {
                   "name": "y length",
@@ -1067,7 +1070,7 @@
               "ioValues": [
                 {
                   "name": "height",
-                  "ioValue": 19.8
+                  "ioValue": 19.5
                 }
               ]
             },
@@ -1126,7 +1129,7 @@
               "ioValues": [
                 {
                   "name": "BitDiameter",
-                  "ioValue": 6.4
+                  "ioValue": 6.35
                 },
                 {
                   "name": "Center_Y",
@@ -1153,7 +1156,7 @@
                   "ioValues": [
                     {
                       "name": "diameter",
-                      "ioValue": 7.4
+                      "ioValue": 7.35
                     }
                   ]
                 },
@@ -1174,7 +1177,7 @@
                   "ioValues": [
                     {
                       "name": "D",
-                      "ioValue": 6.4
+                      "ioValue": 6.35
                     }
                   ],
                   "currentEquation": "D+1"
@@ -1220,7 +1223,7 @@
                     },
                     {
                       "name": "D",
-                      "ioValue": 6.4
+                      "ioValue": 6.35
                     }
                   ],
                   "currentEquation": "X-(.25*D)"
@@ -1238,7 +1241,7 @@
                     },
                     {
                       "name": "D",
-                      "ioValue": 6.4
+                      "ioValue": 6.35
                     }
                   ],
                   "currentEquation": "Y-(.25*D)"
@@ -1252,11 +1255,11 @@
                   "ioValues": [
                     {
                       "name": "Width (X)",
-                      "ioValue": 98.4
+                      "ioValue": 98.4125
                     },
                     {
                       "name": "Length (Y)",
-                      "ioValue": 57.4
+                      "ioValue": 57.4125
                     }
                   ],
                   "topLevel": false,
@@ -1300,7 +1303,7 @@
                       "ioValues": [
                         {
                           "name": "W",
-                          "ioValue": 98.4
+                          "ioValue": 98.4125
                         }
                       ],
                       "currentEquation": "W/2"
@@ -1314,7 +1317,7 @@
                       "ioValues": [
                         {
                           "name": "W",
-                          "ioValue": 98.4
+                          "ioValue": 98.4125
                         }
                       ],
                       "currentEquation": "W/-2"
@@ -1328,7 +1331,7 @@
                       "ioValues": [
                         {
                           "name": "L",
-                          "ioValue": 57.4
+                          "ioValue": 57.4125
                         }
                       ],
                       "currentEquation": "L/2"
@@ -1342,7 +1345,7 @@
                       "ioValues": [
                         {
                           "name": "L",
-                          "ioValue": 57.4
+                          "ioValue": 57.4125
                         }
                       ],
                       "currentEquation": "L/-2"
@@ -1355,11 +1358,11 @@
                       "ioValues": [
                         {
                           "name": "xDist",
-                          "ioValue": 49.2
+                          "ioValue": 49.20625
                         },
                         {
                           "name": "yDist",
-                          "ioValue": 28.7
+                          "ioValue": 28.70625
                         },
                         {
                           "name": "zDist",
@@ -1375,11 +1378,11 @@
                       "ioValues": [
                         {
                           "name": "xDist",
-                          "ioValue": 49.2
+                          "ioValue": 49.20625
                         },
                         {
                           "name": "yDist",
-                          "ioValue": -28.7
+                          "ioValue": -28.70625
                         },
                         {
                           "name": "zDist",
@@ -1395,11 +1398,11 @@
                       "ioValues": [
                         {
                           "name": "xDist",
-                          "ioValue": -49.2
+                          "ioValue": -49.20625
                         },
                         {
                           "name": "yDist",
-                          "ioValue": 28.7
+                          "ioValue": 28.70625
                         },
                         {
                           "name": "zDist",
@@ -1415,11 +1418,11 @@
                       "ioValues": [
                         {
                           "name": "xDist",
-                          "ioValue": -49.2
+                          "ioValue": -49.20625
                         },
                         {
                           "name": "yDist",
-                          "ioValue": -28.7
+                          "ioValue": -28.70625
                         },
                         {
                           "name": "zDist",
@@ -1837,8 +1840,8 @@
     },
     {
       "atomType": "ExtractTag",
-      "x": 0.2605820105820106,
-      "y": 0.25348189415041783,
+      "x": 0.289021164021164,
+      "y": 0.5097493036211699,
       "uniqueID": "id-2912",
       "name": "Extract Tag",
       "tag": "Wood",
@@ -1846,8 +1849,8 @@
     },
     {
       "atomType": "CutLayout",
-      "x": 0.3835978835978836,
-      "y": 0.2590529247910863,
+      "x": 0.44576719576719576,
+      "y": 0.4902506963788301,
       "uniqueID": "id-2915",
       "name": "Cut Layout",
       "ioValues": [
@@ -1868,26 +1871,26 @@
         [
           {
             "id": 1,
-            "rotate": 0,
+            "rotate": 90,
             "translate": {
-              "x": 130.2,
-              "y": 82.5
-            }
-          },
-          {
-            "id": 2,
-            "rotate": 180,
-            "translate": {
-              "x": 130.20000000000002,
-              "y": 247.50000000000003
+              "x": 82.50000000000003,
+              "y": 192.7
             }
           },
           {
             "id": 0,
             "rotate": 90,
             "translate": {
-              "x": 82.4999999756599,
-              "y": 460.2
+              "x": 247.50000000000003,
+              "y": 192.7
+            }
+          },
+          {
+            "id": 2,
+            "rotate": 270,
+            "translate": {
+              "x": 412.5000000000001,
+              "y": 192.7
             }
           }
         ]
@@ -1895,14 +1898,14 @@
     },
     {
       "atomType": "Move",
-      "x": 0.5211640211640212,
-      "y": 0.2646239554317549,
+      "x": 0.5416666666666666,
+      "y": 0.4596100278551532,
       "uniqueID": "id-2921",
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 1400,
-          "currentEquation": "1400"
+          "ioValue": 1600,
+          "currentEquation": "1600"
         },
         {
           "name": "yDist",
@@ -1917,8 +1920,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.6309523809523809,
-      "y": 0.29526462395543174,
+      "x": 0.591931216931217,
+      "y": 0.1392757660167131,
       "uniqueID": "id-2927",
       "ioValues": [
         {
@@ -1950,13 +1953,13 @@
     {
       "atomType": "Move",
       "x": 0.7142857142857143,
-      "y": 0.3593314763231198,
+      "y": 0.3537604456824513,
       "uniqueID": "id-2935",
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 300,
-          "currentEquation": "300"
+          "ioValue": 400,
+          "currentEquation": "400"
         },
         {
           "name": "yDist",
@@ -1991,7 +1994,7 @@
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.15384615384615385,
+      "y": 0.2395543175487465,
       "uniqueID": "id-2950",
       "name": "Bolt_Diameter",
       "type": "number"
@@ -1999,7 +2002,7 @@
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.36211699164345407,
+      "y": 0.42896935933147634,
       "uniqueID": "id-2953",
       "name": "Bit_Diameter",
       "type": "number"
@@ -2015,7 +2018,7 @@
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.796657381615599,
+      "y": 0.7938718662952646,
       "uniqueID": "id-2959",
       "name": "Anchor_Length",
       "type": "number"
@@ -2067,7 +2070,31 @@
       "ap1ID": "id-2941",
       "ap2ID": "id-2584"
     },
-    null
+    {
+      "ap2Name": "Bolt2Diameter",
+      "ap1ID": "id-2950",
+      "ap2ID": "id-2586"
+    },
+    {
+      "ap2Name": "BitDiameter",
+      "ap1ID": "id-2953",
+      "ap2ID": "id-2586"
+    },
+    {
+      "ap2Name": "Tool Size",
+      "ap1ID": "id-2953",
+      "ap2ID": "id-2927"
+    },
+    {
+      "ap2Name": "WoodThick",
+      "ap1ID": "id-2956",
+      "ap2ID": "id-2586"
+    },
+    {
+      "ap2Name": "Anchor_Dimension",
+      "ap1ID": "id-2959",
+      "ap2ID": "id-2586"
+    }
   ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
