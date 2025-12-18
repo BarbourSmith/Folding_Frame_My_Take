@@ -11,18 +11,15 @@
     },
     {
       "name": "Bit_Diameter",
-      "ioValue": 6.35,
-      "currentEquation": "6.35"
+      "ioValue": 6.35
     },
     {
       "name": "Wood_Thickness",
-      "ioValue": 19.5,
-      "currentEquation": "19.5"
+      "ioValue": 19.5
     },
     {
       "name": "Anchor_Length",
-      "ioValue": 150,
-      "currentEquation": "150"
+      "ioValue": 150
     }
   ],
   "topLevel": true,
@@ -32,6 +29,187 @@
       "x": 0.98,
       "y": 0.5,
       "uniqueID": "id-2584"
+    },
+    {
+      "atomType": "ExtractTag",
+      "x": 0.289021164021164,
+      "y": 0.5097493036211699,
+      "uniqueID": "id-2912",
+      "name": "Extract Tag",
+      "tag": "Wood",
+      "tagIndex": 0
+    },
+    {
+      "atomType": "CutLayout",
+      "x": 0.44576719576719576,
+      "y": 0.4902506963788301,
+      "uniqueID": "id-2915",
+      "name": "Cut Layout",
+      "ioValues": [
+        {
+          "name": "Sheet Width",
+          "ioValue": 2438
+        },
+        {
+          "name": "Sheet Height",
+          "ioValue": 1219
+        },
+        {
+          "name": "Part Padding",
+          "ioValue": 10
+        }
+      ],
+      "placements": [
+        [
+          {
+            "id": 1,
+            "rotate": 90,
+            "translate": {
+              "x": 82.50000000000003,
+              "y": 192.7
+            }
+          },
+          {
+            "id": 0,
+            "rotate": 90,
+            "translate": {
+              "x": 247.50000000000003,
+              "y": 192.7
+            }
+          },
+          {
+            "id": 2,
+            "rotate": 270,
+            "translate": {
+              "x": 412.5000000000001,
+              "y": 192.7
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.5416666666666666,
+      "y": 0.4596100278551532,
+      "uniqueID": "id-2921",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 1600
+        },
+        {
+          "name": "yDist",
+          "ioValue": 300
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Gcode",
+      "x": 0.591931216931217,
+      "y": 0.1392757660167131,
+      "uniqueID": "id-2927",
+      "ioValues": [
+        {
+          "name": "Tool Size",
+          "ioValue": 6.35
+        },
+        {
+          "name": "Passes",
+          "ioValue": 3
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Folding_Frame_My_Take",
+          "currentEquation": "Folding_Frame_My_Take"
+        }
+      ],
+      "partName": "Folding_Frame_My_Take",
+      "sortDirection": "Left"
+    },
+    {
+      "atomType": "Move",
+      "x": 0.7142857142857143,
+      "y": 0.3537604456824513,
+      "uniqueID": "id-2935",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 600
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.7976190476190476,
+      "y": 0.7743732590529249,
+      "uniqueID": "id-2941",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.15384615384615385,
+      "uniqueID": "id-2950",
+      "name": "Bolt_Diameter",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.24615384615384617,
+      "uniqueID": "id-2953",
+      "name": "Bit_Diameter",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.3384615384615385,
+      "uniqueID": "id-2956",
+      "name": "Wood_Thickness",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.4307692307692308,
+      "uniqueID": "id-2959",
+      "name": "Anchor_Length",
+      "type": "number"
     },
     {
       "atomType": "Molecule",
@@ -1121,6 +1299,16 @@
               "uniqueID": "id-2626"
             },
             {
+              "atomType": "Tag",
+              "x": 0.8167989417989419,
+              "y": 0.4818941504178273,
+              "uniqueID": "id-2909",
+              "name": "Wood",
+              "tags": [
+                "Wood"
+              ]
+            },
+            {
               "atomType": "Molecule",
               "x": 0.35648148148148145,
               "y": 0.7465181058495821,
@@ -1647,16 +1835,6 @@
                 }
               ],
               "fileTypeVersion": 1
-            },
-            {
-              "atomType": "Tag",
-              "x": 0.8167989417989419,
-              "y": 0.4818941504178273,
-              "uniqueID": "id-2909",
-              "name": "Wood",
-              "tags": [
-                "Wood"
-              ]
             }
           ],
           "allConnectors": [
@@ -1721,14 +1899,14 @@
               "ap2ID": "id-2909"
             },
             {
-              "ap2Name": "geometry2",
-              "ap1ID": "id-2599",
-              "ap2ID": "id-2626"
-            },
-            {
               "ap2Name": "number or geometry",
               "ap1ID": "id-2909",
               "ap2ID": "id-2592"
+            },
+            {
+              "ap2Name": "geometry2",
+              "ap1ID": "id-2599",
+              "ap2ID": "id-2626"
             }
           ],
           "fileTypeVersion": 1
@@ -1837,204 +2015,9 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "ExtractTag",
-      "x": 0.289021164021164,
-      "y": 0.5097493036211699,
-      "uniqueID": "id-2912",
-      "name": "Extract Tag",
-      "tag": "Wood",
-      "tagIndex": 0
-    },
-    {
-      "atomType": "CutLayout",
-      "x": 0.44576719576719576,
-      "y": 0.4902506963788301,
-      "uniqueID": "id-2915",
-      "name": "Cut Layout",
-      "ioValues": [
-        {
-          "name": "Sheet Width",
-          "ioValue": 2438
-        },
-        {
-          "name": "Sheet Height",
-          "ioValue": 1219
-        },
-        {
-          "name": "Part Padding",
-          "ioValue": 10
-        }
-      ],
-      "placements": [
-        [
-          {
-            "id": 1,
-            "rotate": 90,
-            "translate": {
-              "x": 82.50000000000003,
-              "y": 192.7
-            }
-          },
-          {
-            "id": 0,
-            "rotate": 90,
-            "translate": {
-              "x": 247.50000000000003,
-              "y": 192.7
-            }
-          },
-          {
-            "id": 2,
-            "rotate": 270,
-            "translate": {
-              "x": 412.5000000000001,
-              "y": 192.7
-            }
-          }
-        ]
-      ]
-    },
-    {
-      "atomType": "Move",
-      "x": 0.5416666666666666,
-      "y": 0.4596100278551532,
-      "uniqueID": "id-2921",
-      "ioValues": [
-        {
-          "name": "xDist",
-          "ioValue": 1600,
-          "currentEquation": "1600"
-        },
-        {
-          "name": "yDist",
-          "ioValue": 300,
-          "currentEquation": "300"
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0
-        }
-      ]
-    },
-    {
-      "atomType": "Gcode",
-      "x": 0.591931216931217,
-      "y": 0.1392757660167131,
-      "uniqueID": "id-2927",
-      "ioValues": [
-        {
-          "name": "Tool Size",
-          "ioValue": 6.35
-        },
-        {
-          "name": "Passes",
-          "ioValue": 3,
-          "currentEquation": "3"
-        },
-        {
-          "name": "Speed",
-          "ioValue": 1500
-        },
-        {
-          "name": "Cut Through",
-          "ioValue": 0
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Folding_Frame_My_Take",
-          "currentEquation": "Folding_Frame_My_Take"
-        }
-      ],
-      "partName": "Folding_Frame_My_Take",
-      "sortDirection": "Left"
-    },
-    {
-      "atomType": "Move",
-      "x": 0.7142857142857143,
-      "y": 0.3537604456824513,
-      "uniqueID": "id-2935",
-      "ioValues": [
-        {
-          "name": "xDist",
-          "ioValue": 600,
-          "currentEquation": "600"
-        },
-        {
-          "name": "yDist",
-          "ioValue": 0
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0
-        }
-      ]
-    },
-    {
-      "atomType": "Assembly",
-      "x": 0.7976190476190476,
-      "y": 0.7743732590529249,
-      "uniqueID": "id-2941",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 2",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 3",
-          "ioValue": null
-        }
-      ]
-    },
-    {
-      "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.2395543175487465,
-      "uniqueID": "id-2950",
-      "name": "Bolt_Diameter",
-      "type": "number"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.42896935933147634,
-      "uniqueID": "id-2953",
-      "name": "Bit_Diameter",
-      "type": "number"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.6016713091922006,
-      "uniqueID": "id-2956",
-      "name": "Wood_Thickness",
-      "type": "number"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.7938718662952646,
-      "uniqueID": "id-2959",
-      "name": "Anchor_Length",
-      "type": "number"
     }
   ],
   "allConnectors": [
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-2586",
-      "ap2ID": "id-2912"
-    },
-    {
-      "ap2Name": "Shape 2",
-      "ap1ID": "id-2586",
-      "ap2ID": "id-2941"
-    },
     {
       "ap2Name": "geometry",
       "ap1ID": "id-2912",
@@ -2094,6 +2077,16 @@
       "ap2Name": "Anchor_Dimension",
       "ap1ID": "id-2959",
       "ap2ID": "id-2586"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-2586",
+      "ap2ID": "id-2912"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-2586",
+      "ap2ID": "id-2941"
     }
   ],
   "unitsKey": "MM",
